@@ -1,9 +1,9 @@
-import './Header.css'
+import { Heading } from "@chakra-ui/react"
 
 export const Header  = () => {
   return(
-    <div className='header'>
+    <Heading as={'h1'} color={"white"} size={'4xl'} mb={'30px'}>
       Dio Bank
-    </div>
+    </Heading>
   )
 }
